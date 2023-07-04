@@ -20,9 +20,10 @@ body {
     'opsz' 48
 }
 
-/* span.icon {
-    font-size: 10rem;
-} */
+span.icon {
+    font-size: 6rem;
+    cursor: pointer;
+}
 
 
 
@@ -47,7 +48,7 @@ header img {
 /* Styles for the Nav element */
 nav {
     position: sticky;
-    background-color: hsl(123, 95%, 43%);
+    background-color: hsl(157, 76%, 39%);
     top: 1em;
     padding: 1.5rem;
     border-radius: 1em;
@@ -116,6 +117,7 @@ nav li:hover {
     color: white;
     margin: 0 3rem;
     border-radius: 1em;
+    min-width: 30px;
 }
 
 
@@ -129,6 +131,7 @@ div#ad-content {
     grid-column: 2 / 4;
     padding: 15em;
     text-align: center;
+    min-width: 30px;
 }
 
 h1 {
@@ -156,15 +159,6 @@ div.arrow-right {
     margin-right: 6rem;
 }
 
-/* @keyframes move {
-    from {
-        transform: ;
-    }
-    to {
-
-    }
-} */
-
 
 
     /* Styles for the 2nd Section inside main element */
@@ -176,12 +170,12 @@ div.arrow-right {
 }
 
 #ad-banner + div {
-    background-color: hsl(123, 95%, 43%);
+    background-color: hsl(157, 76%, 39%);
     text-align: center;
-    grid-column: 1/4;
     font-size: 2em;
     font-weight: 700;
     text-decoration: underline;
+    min-width: 100px;
     border-radius: 2rem;
     padding: 2rem;
     margin: 4rem 20rem;
@@ -247,7 +241,7 @@ footer div#contacts-address {
 }
 
 #contacts-address a:hover {
-    color: hsl(240, 100%, 50%);
+    color: hsl(157, 76%, 39%);
 }
 
 
