@@ -60,6 +60,7 @@ nav {
 nav ul {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 6rem;
 }
 
@@ -203,7 +204,8 @@ div.arrow-right {
     /* Styles for the 2nd Section inside main element */
 #benefits {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 
+            repeat(auto-fit, minmax(min(100%, 190px), 1fr));
     gap: 1rem;
     margin: 4em 1em;
 }
@@ -213,11 +215,11 @@ div.arrow-right {
     text-align: center;
     font-size: 2em;
     font-weight: 700;
-    text-decoration: underline;
-    min-width: 100px;
+    width: 100px;
+    min-width: 50%;
     border-radius: 2rem;
     padding: 2rem;
-    margin: 4rem 20rem;
+    margin: 4rem auto;
     transition: all 0.2s ease-out;
 }
 
